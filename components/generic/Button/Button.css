@@ -1,0 +1,15 @@
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: pink;
+  color: white;
+  transition: 0.2s ease-in;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #FF6666;
+  transition: 0.2s ease-out;
+}

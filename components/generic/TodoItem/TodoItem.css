@@ -1,0 +1,30 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.description[contenteditable="true"] {
+  border: 1px solid #CCCCCC;
+  padding: 2px;
+}
+
+.list_item_button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  float: right;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.list_item_button:hover {
+  background-color: #FF6666;
+  transition: 0.2s ease-out;
+}

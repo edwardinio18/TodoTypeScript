@@ -1,0 +1,27 @@
+.form-field {
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
